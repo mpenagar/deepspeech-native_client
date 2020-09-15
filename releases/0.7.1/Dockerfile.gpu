@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.1-runtime-ubuntu18.04
+FROM nvidia/cuda:10.0-cudnn7-runtime-ubuntu18.04
 
 ARG RELEASE=0.7.1
 ARG ARCH=amd64.cuda.linux

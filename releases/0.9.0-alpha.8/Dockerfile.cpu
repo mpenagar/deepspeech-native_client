@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-ARG RELEASE=0.7.1
+ARG RELEASE=0.9.0-alpha.8
 ARG ARCH=amd64.cpu.linux
 ARG BASE_URL=https://github.com/mozilla/DeepSpeech/releases/download
 ARG TAR_FILE=native_client.${ARCH}.tar.xz
